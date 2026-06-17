@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dudas frecuentes | Guía para tu perro</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html"><span class="brand-icon" aria-hidden="true"><img src="img/logo-perro.png" alt=""></span><span>Guía para<br>tu perro</span></a>
+    <button class="menu-toggle" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="menu-principal"><span></span><span></span><span></span></button>
+    <nav class="main-nav" id="menu-principal" aria-label="Navegación principal">
+      <p class="menu-label">Menú de secciones</p>
+      <a href="index.html">Inicio</a>
+      <a href="primerosdias.html">Primeros días</a>
+      <a href="rutinas.html">Rutinas</a>
+      <a href="guias.html">Guías</a>
+      <a href="porqueimporta.html">Por qué importa</a>
+      <a href="dudasfrecuentes.html" class="active-link">Dudas frecuentes</a>
+      <a href="contacto.html" class="nav-button">Contacto</a>
+    </nav>
+  </header>
+  <div class="menu-backdrop" hidden></div>
+
+  <main>
+    <section class="section page-start">
+      <div class="section-heading centered">
+        <p class="eyebrow">Dudas frecuentes</p>
+        <h1>Preguntas frecuentes</h1>
+        <p>Estas respuestas resumen inquietudes comunes durante los primeros días de adaptación.</p>
+      </div>
+      <div class="faq-list">
+        <details open><summary>¿Cuánto tarda un perro en adaptarse?</summary><p>Cada mascota es diferente, pero generalmente el proceso puede tomar desde algunos días hasta varias semanas.</p></details>
+        <details><summary>¿Qué hago si mi perro llora por la noche?</summary><p>Es importante mantener la calma y ofrecerle un espacio cómodo y seguro sin reforzar conductas de ansiedad.</p></details>
+        <details><summary>¿Cuándo puedo empezar a enseñarle normas?</summary><p>Desde el primer día, pero con indicaciones simples, tono amable y premios cuando responda bien.</p></details>
+        <details><summary>¿Debo presentarle toda la casa de una vez?</summary><p>Es mejor hacerlo poco a poco para que pueda explorar sin sentirse sobreestimulado.</p></details>
+      </div>
+    </section>
+  </main>
+
+  <nav class="bottom-nav" aria-label="Navegación móvil"><a href="index.html"><span class="mini-icon home-icon"></span>Inicio</a><a href="rutinas.html"><span class="mini-icon clock-icon"></span>Rutina</a><a href="guias.html"><span class="mini-icon checklist-icon"></span>Guías</a><a href="contacto.html"><span class="mini-icon heart-icon"></span>Contacto</a></nav>
+  <footer class="site-footer"><div class="footer-brand"><span class="footer-icon" aria-hidden="true"></span><p><strong>Guía para tu perro</strong><br>2026 Todos los derechos reservados.</p></div><div class="footer-links"><a href="porqueimporta.html">Por qué importa</a><a href="contacto.html">Siguiente: contacto</a></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>

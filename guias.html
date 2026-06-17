@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guías | Guía para tu perro</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html"><span class="brand-icon" aria-hidden="true"><img src="img/logo-perro.png" alt=""></span><span>Guía para<br>tu perro</span></a>
+    <button class="menu-toggle" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="menu-principal"><span></span><span></span><span></span></button>
+    <nav class="main-nav" id="menu-principal" aria-label="Navegación principal">
+      <p class="menu-label">Menú de secciones</p>
+      <a href="index.html">Inicio</a>
+      <a href="primerosdias.html">Primeros días</a>
+      <a href="rutinas.html">Rutinas</a>
+      <a href="guias.html" class="active-link">Guías</a>
+      <a href="porqueimporta.html">Por qué importa</a>
+      <a href="dudasfrecuentes.html">Dudas frecuentes</a>
+      <a href="contacto.html" class="nav-button">Contacto</a>
+    </nav>
+  </header>
+  <div class="menu-backdrop" hidden></div>
+
+  <main>
+    <section class="section split-section page-start">
+      <div class="section-copy">
+        <p class="eyebrow">Checklist básico</p>
+        <h1>Guías rápidas</h1>
+        <p>Antes de recibir a tu perro, prepara estos elementos para que sus primeros días en casa sean más fáciles, seguros y organizados.</p>
+        <div class="checklist" aria-label="Checklist de primeros días">
+          <label><input type="checkbox"><span></span>Comida</label>
+          <label><input type="checkbox"><span></span>Agua</label>
+          <label><input type="checkbox"><span></span>Cama</label>
+          <label><input type="checkbox"><span></span>Juguetes</label>
+          <label><input type="checkbox"><span></span>Espacio seguro</label>
+        </div>
+        <button class="primary-button as-button" type="button" id="completeChecklist">Marcar como completado</button>
+      </div>
+      <div class="section-image tall-image"><img src="img/guiaperro1.jpg" alt="Accesorios de paseo para perro"></div>
+    </section>
+
+    <section class="section split-section">
+      <div class="section-copy">
+        <p class="eyebrow">Lo que conviene evitar</p>
+        <h2>Errores comunes</h2>
+        <p>Evita estos errores para mejorar la adaptación de tu perro y darle una llegada más tranquila.</p>
+        <ul class="check-list">
+          <li>Sobrestimular al perro con demasiadas visitas o juegos intensos.</li>
+          <li>No respetar sus tiempos cuando necesita dormir o alejarse.</li>
+          <li>No establecer rutinas claras de comida, descanso y paseo.</li>
+          <li>Castigar en exceso en vez de guiar con paciencia y refuerzo positivo.</li>
+        </ul>
+      </div>
+      <div class="section-image"><img src="img/errorescomunes.jpg" alt="Perro inseguro durante su adaptación"></div>
+    </section>
+  </main>
+
+  <nav class="bottom-nav" aria-label="Navegación móvil"><a href="index.html"><span class="mini-icon home-icon"></span>Inicio</a><a href="rutinas.html"><span class="mini-icon clock-icon"></span>Rutina</a><a href="guias.html"><span class="mini-icon checklist-icon"></span>Guías</a><a href="contacto.html"><span class="mini-icon heart-icon"></span>Contacto</a></nav>
+  <footer class="site-footer"><div class="footer-brand"><span class="footer-icon" aria-hidden="true"></span><p><strong>Guía para tu perro</strong><br>2026 Todos los derechos reservados.</p></div><div class="footer-links"><a href="rutinas.html">Rutinas</a><a href="porqueimporta.html">Siguiente: por qué importa</a></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>

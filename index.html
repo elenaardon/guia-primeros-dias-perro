@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guía para los primeros días con tu perro</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Ir al inicio">
+      <span class="brand-icon" aria-hidden="true"><img src="img/logo-perro.png" alt=""></span>
+      <span>Guía para<br>tu perro</span>
+    </a>
+    <button class="menu-toggle" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="menu-principal">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="main-nav" id="menu-principal" aria-label="Navegación principal">
+      <p class="menu-label">Menú de secciones</p>
+      <a href="index.html" class="active-link">Inicio</a>
+      <a href="primerosdias.html">Primeros días</a>
+      <a href="rutinas.html">Rutinas</a>
+      <a href="guias.html">Guías</a>
+      <a href="porqueimporta.html">Por qué importa</a>
+      <a href="dudasfrecuentes.html">Dudas frecuentes</a>
+      <a href="contacto.html" class="nav-button">Contacto</a>
+    </nav>
+  </header>
+  <div class="menu-backdrop" hidden></div>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Primeros días en casa</p>
+        <h1>Guía para los primeros días con tu perro</h1>
+        <p>
+          Consejos simples para ayudar a tu mascota a adaptarse a su nuevo hogar
+          con calma, seguridad y una rutina clara desde el comienzo.
+        </p>
+        <a class="primary-button" href="primerosdias.html">Comenzar guía</a>
+      </div>
+      <div class="hero-media">
+        <img src="img/guiaperro1.jpg" alt="Perro descansando con sus accesorios de paseo">
+      </div>
+    </section>
+
+    <section class="section compact-section" aria-labelledby="explora-title">
+      <div class="section-heading centered">
+        <h2 id="explora-title">Explora nuestras secciones</h2>
+        <p>El sitio está dividido por temas para que puedas navegarlo con más claridad.</p>
+      </div>
+      <div class="cards four-columns">
+        <a class="feature-card" href="primerosdias.html">
+          <span class="circle-icon home-icon" aria-hidden="true"></span>
+          <h3>Primeros días</h3>
+          <p>Cómo preparar el espacio y acompañar la llegada.</p>
+          <span class="card-link">Ver más</span>
+        </a>
+        <a class="feature-card" href="rutinas.html">
+          <span class="circle-icon clock-icon" aria-hidden="true"></span>
+          <h3>Rutinas</h3>
+          <p>Horarios, descanso, paseos y organización diaria.</p>
+          <span class="card-link">Ver más</span>
+        </a>
+        <a class="feature-card" href="guias.html">
+          <span class="circle-icon checklist-icon" aria-hidden="true"></span>
+          <h3>Guías</h3>
+          <p>Checklist, errores comunes y recomendaciones rápidas.</p>
+          <span class="card-link">Ver más</span>
+        </a>
+        <a class="feature-card" href="porqueimporta.html">
+          <span class="circle-icon heart-icon" aria-hidden="true"></span>
+          <h3>Por qué importa</h3>
+          <p>Beneficios de una buena adaptación desde el inicio.</p>
+          <span class="card-link">Ver más</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="section video-section">
+      <div class="section-heading centered">
+        <p class="eyebrow">Video</p>
+        <h2>Momentos de adaptación</h2>
+        <p>
+          Observar momentos tranquilos y positivos ayuda a entender mejor cómo
+          acompañar la adaptación de un perro.
+        </p>
+      </div>
+      <div class="video-card">
+        <video controls poster="img/guiaperro1.jpg">
+          <source src="perritos.mp4" type="video/mp4">
+          Tu navegador no puede reproducir este video.
+        </video>
+      </div>
+    </section>
+  </main>
+
+  <nav class="bottom-nav" aria-label="Navegación móvil">
+    <a href="index.html"><span class="mini-icon home-icon"></span>Inicio</a>
+    <a href="rutinas.html"><span class="mini-icon clock-icon"></span>Rutina</a>
+    <a href="guias.html"><span class="mini-icon checklist-icon"></span>Guías</a>
+    <a href="contacto.html"><span class="mini-icon heart-icon"></span>Contacto</a>
+  </nav>
+
+  <footer class="site-footer">
+    <div class="footer-brand">
+      <span class="footer-icon" aria-hidden="true"></span>
+      <p><strong>Guía para tu perro</strong><br>2026 Todos los derechos reservados.</p>
+    </div>
+    <div class="footer-links">
+      <a href="porqueimporta.html">Sobre la guía</a>
+      <a href="dudasfrecuentes.html">Dudas</a>
+      <a href="contacto.html">Contacto</a>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
